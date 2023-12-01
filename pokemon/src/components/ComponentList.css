@@ -1,0 +1,58 @@
+.PokemonList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  justify-items: center;
+  padding: 0 3rem 3rem;
+  margin: 3rem;
+}
+
+.color {
+  background: rgb(251, 173, 64);
+  background: linear-gradient(
+    90deg,
+    rgba(251, 173, 64, 1) 0%,
+    rgba(233, 133, 6, 0.9990371148459384) 38%,
+    rgba(254, 151, 20, 0.9654236694677871) 53%,
+    rgba(244, 147, 24, 1) 64%,
+    rgba(252, 176, 69, 0.9766281512605042) 100%
+  );
+}
+
+.button {
+  background-color: #ea5455;
+}
+
+/* Estilo para las tarjetas de Pokémon */
+.card {
+  width: 200px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-title {
+  text-align: center;
+  padding: 10px;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+.size {
+    width: 45rem;
+}
